@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Teste de formulário</h1>
+    <form action="post" autocomplete="on">
+      <p>
+        <label for="iusu">Usuário:</label>
+        <input type="text" name="usu" id="iusu" required maxlength="20" size="25" placeholder="Nome do usuário" autocomplete="username" />
+      </p>
+      <p>
+        <label for="isen">Senha:</label>
+        <input type="password" name="sen" id="isen" required minlength="5" autocomplete="current-password" />
+      </p>
+      <p><input type="reset" value="Limpar" /><input type="submit" value="Enviar" /></p>
+    </form>
+  </body>
+</html>
